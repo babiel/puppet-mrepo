@@ -25,6 +25,7 @@ class mrepo::webservice (
   $port       = $mrepo::port
   $ip_based   = $mrepo::www_ip_based
   $ip         = $mrepo::www_ip
+  $ensure     = $mrepo::www_ensure
 
   case $ensure {
     'present': {
